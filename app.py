@@ -2,11 +2,13 @@
 import gradio as gr
 import os 
 import torch
+import torchvision
 
 from model import create_densenet161_model
 from model import create_vit_model
 from model import create_effnetb2_model
 from model import MyEnsemble
+from torchvision import transforms
 
 from timeit import default_timer as timer
 from typing import Tuple, Dict
