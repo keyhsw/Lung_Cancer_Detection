@@ -65,7 +65,7 @@ def predict(img) -> Tuple[Dict, float]:
 ### 4. Gradio app ### 
 
 # Create title, description and article
-title = "Multi-class Lung Cancer Detection"
+title = "Lung Cancer Detection"
 description = "An [ensemble feature extractor] AI model to classify images as benign, normal and malignant lung CT images."
 article = "Created at [09. PyTorch Model Deployment](https://www.learnpytorch.io/09_pytorch_model_deployment/#74-building-a-gradio-interface)."
 
