@@ -31,6 +31,8 @@ manual_transforms = transforms.Compose([
 ])
 
 # Load save weights
+os.system('wget -P /home/xlab-app-center/ https://huggingface.co/spaces/ananya0409/Lung_Cancer_Detection/resolve/main/lung_ensemble_densenet_vit_effnetb2.pth')
+
 model.load_state_dict(
     torch.load(
         f="lung_ensemble_densenet_vit_effnetb2.pth",
